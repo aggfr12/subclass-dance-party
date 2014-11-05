@@ -1,21 +1,31 @@
 body, html{
   height:100%;
 }
+html{
+  background: url(src/disco_backdrop.jpg) no-repeat center center fixed;   
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body{
   margin: 0px;
-  background-color:#444;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addDancerButton, .lineUpButton{
   padding:5px 12px;
   float:right;
+  display: inline-block;
+  clear: none;
+
 }
 .topbar{
   height:32px;
   background-color: #555;
+  width: 100%;
 }
 .title{
   background-color: #777;
@@ -25,3 +35,30 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+.mario {
+  background-image: url(src/mario.jpeg);
+  width: 130px;
+  height: 210px;
+  position: absolute;
+}
+.link {
+  background-image: url(src/link.jpg);
+  border:10px solid green;
+  width: 130px;
+  height: 200px;
+  position: absolute;
+}
+.shaky {
+  border:10px solid yellow;
+  border-radius:20px;
+  position:absolute;
+}
+
+
+
+
+
+
+
+
+
